@@ -1,0 +1,149 @@
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Asher Jobin - Profile</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous"/>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+
+    .main-header {
+      background-color: #00796b;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid white;
+      margin-bottom: 1rem;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h2 {
+      color: #00796b;
+      margin-bottom: 1rem;
+      font-size: 1.2rem;
+    }
+
+    .card ul {
+      list-style: none;
+    }
+
+    .card ul li {
+      padding: 0.4rem 0;
+    }
+
+    .card p {
+      padding: 0.3rem 0;
+    }
+
+    footer {
+      background-color: #00796b;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    a {
+      color: #00796b;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="main-header">
+    <img src="file:///C:/Users/asher/Downloads/asherJohnJobin.jpg" alt="Profile Picture">
+    <h1>Asher Jobin</h1>
+    <p>Computer Science Student | Web Developer</p>
+  </header>
+
+  <main class="grid-container">
+    <section class="card">
+      <h2><i class="fas fa-user"></i> Personal Info</h2>
+      <p>Name: AsherJohn Jobin</p>
+      <p>Age: 18</p>
+      <p>Location: Kerala, India</p>
+      <p>Department: Computer Science</p>
+    </section>
+
+    <section class="card">
+      <h2><i class="fas fa-tools"></i> Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Python & C</li>
+        <li>Git & GitHub</li>
+        <li>Responsive Design</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2><i class="fas fa-brain"></i> Soft Skills</h2>
+      <ul>
+        <li>Teamwork</li>
+        <li>Problem Solving</li>
+        <li>Communication</li>
+        <li>Adaptability</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2><i class="fas fa-address-book"></i> Contact Info</h2>
+      <p><i class="fas fa-envelope"></i> asherjohnjobin@gmail.com</p>
+      <p><i class="fas fa-phone"></i> 9449494322</p>
+      <p><i class="fab fa-linkedin"></i> linkedin.com/in/asherjobin</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Asher Jobin</p>
+  </footer>
+
+</body>
+</html>
